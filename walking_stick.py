@@ -106,7 +106,7 @@ def detect_frame(frame,alerted):
 # Video input
 # ----------------------------
 def main():
-    video_path = "demoNEW.mp4"   
+    video_path = "Demo_Vid.mp4"   
     cap = cv2.VideoCapture(video_path)
 
     if not cap.isOpened():
